@@ -1,0 +1,375 @@
+.allWrapper {
+  font-family: "YuGothic", "Yu Gothic", "Yu Gothic Medium", -apple-system,
+    "BlinkMacSystemFont", "Roboto", "Segoe UI", "Helvetica Neue",
+    "HelveticaNeue", "Verdana", "Meiryo";
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.backGround {
+  width: 100%;
+  z-index: -10;
+  margin: 0;
+}
+
+.header {
+  text-align: center;
+  font-family: 'EB Garamond', serif;
+  font-size: 40px;
+  margin: 0;
+}
+
+.topWrapper {
+  position: relative;
+  height: 300px;
+  margin: 20px 12px 12px 12px;
+}
+
+.top {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.3);
+}
+
+.onImageText {
+  position: absolute;
+  font-family: 'EB Garamond', serif;
+  font-size: 25px;
+  left: 15px;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.3);
+  bottom: 20%;
+  padding: 8px;
+  line-height: 50%;
+}
+
+.sectionTitle {
+  text-align: center;
+  font-family: 'EB Garamond', serif;
+  font-size: 40px;
+}
+
+.sectionWrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.greetingText {
+  text-align: center;
+  padding: 0px 15px 40px 15px;
+  font-size: 14px;
+  line-height: 25px;
+  width: 100%;
+}
+
+.timelineTitle {
+  text-align: center;
+  font-family: 'EB Garamond', serif;
+  font-size: 40px;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.timeline {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 90px;
+  margin-right:60px;
+}
+
+.timelineText {
+  text-align: center;
+  font-size: 15px;
+  line-height: 30px;
+  width: 100%;
+  vertical-align: middle;
+  margin-right: 40px
+}
+
+.profileimg {
+	display: flex;
+}
+
+.couple {
+	width: 30%;
+	margin-left: 50px;
+}
+
+.profile {
+  text-align: center;
+  width: 80%;
+  padding: 0px 10px 20px 10px;
+  font-size: 13px;
+  line-height: 30px;
+}
+
+
+
+
+
+.bodyNumbers {
+  font-size: 25px;
+  font-family: "Caveat", cursive;
+  margin: 0px;
+  padding-top: 10px;
+}
+
+.miniComment {
+  font-size: 10px;
+  margin: 0px;
+  margin-top: -10px;
+}
+
+.bodyContainer {
+  position: relative;
+  margin: 12px;
+  height: 250px;
+}
+
+.boxContent {
+  margin-top: 5px;
+}
+
+.firstBox {
+  position: absolute;
+  text-align: center;
+  background: #f66;
+  border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
+  box-shadow: rgba(0, 0, 0, 0.1);
+  width: 180px;
+  height: 180px;
+  color: #ffffff;
+}
+
+.secondBox {
+  position: absolute;
+  text-align: center;
+  background: #f92;
+  border-radius: 80% 30% 50% 50%/50%;
+  box-shadow: rgba(0, 0, 0, 0.1);
+  width: 180px;
+  height: 180px;
+  color: #ffffff;
+  right: 0;
+}
+
+.secondImage {
+  z-index: -1;
+  width: 60%;
+  position: absolute;
+  left: 0;
+  top: 80px;
+  box-shadow: 3px 3px 6px -2px #555, 3px 3px 8px rgba(255, 255, 255, 0.8) inset;
+}
+
+.thirdBox {
+  text-align: center;
+  background: #93c62d;
+  border-radius: 40% 40% 50% 40%/30% 50% 50% 50%;
+  box-shadow: rgba(0, 0, 0, 0.1);
+  width: 180px;
+  height: 180px;
+  color: #ffffff;
+}
+
+.thirdImage {
+  z-index: -1;
+  width: 60%;
+  position: absolute;
+  right: 0px;
+  top: 80px;
+  box-shadow: 3px 3px 6px -2px #555, 3px 3px 8px rgba(255, 255, 255, 0.8) inset;
+}
+
+.impactText {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.favorImage {
+  width: 80%;
+  box-shadow: rgba(0, 0, 0, 0.1);
+}
+
+.historyWrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+}
+
+.historyContents {
+  text-align: center;
+  background-color: rgba(147, 198, 45, 0.3);
+  width: 80%;
+  padding: 20px 10px 20px 10px;
+  font-size: 13px;
+  line-height: 30px;
+  border-radius: 40% 70% 50% 40%/30% 50% 80% 50%;
+  white-space: pre-line;
+}
+
+.fade {
+  animation: fade-in-keyframes 0.5s ease-in-out;
+  text-align: center;
+  background-color: rgba(147, 198, 45, 0.3);
+  width: 80%;
+  padding: 20px 10px 20px 10px;
+  font-size: 13px;
+  line-height: 30px;
+  border-radius: 40% 70% 50% 40%/30% 50% 80% 50%;
+  white-space: pre-line;
+}
+
+@keyframes fade-in-keyframes {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.rightArrowContainer {
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 40%;
+  right: 5%;
+}
+
+.leftArrowContainer {
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+}
+
+.arrowRight {
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+  color: #333;
+  text-decoration: none;
+  top: 40%;
+}
+.arrowRight:before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  background: #333;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 17px;
+  margin-top: -9px;
+}
+.arrowRight:after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border: 0;
+  border-top: solid 2px #fff;
+  border-right: solid 2px #fff;
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  margin-top: -4px;
+  transform: rotate(45deg);
+}
+
+.arrowLeft {
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+  color: #333;
+  text-decoration: none;
+  top: 40%;
+}
+.arrowLeft:before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  background: #333;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  margin-top: -9px;
+}
+.arrowLeft:after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border: 0;
+  border-top: solid 2px #fff;
+  border-right: solid 2px #fff;
+  position: absolute;
+  top: 50%;
+  left: 11px;
+  margin-top: -4px;
+  transform: rotate(-135deg);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+.hisHeader {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0;
+}
+.hisDate {
+  margin: 4px;
+}
+
+.hisContent {
+  margin: 0%;
+  padding: 0px 30px 0px 30px;
+}
+
+.indicators {
+  display: flex;
+  font-weight: 900;
+  font-size: 20px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.point {
+  margin: 0;
+  border-radius: 50%;
+  width: 6px;
+  height: 6px;
+  background-color: rgba(51, 51, 51, 0.5);
+  margin: 0 8px;
+}
+
+.presentPoint {
+  margin: 0;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: rgba(147, 198, 45, 0.9);
+  margin: 0 8px;
+}
+
+.dummySpace {
+  height: 300px;
+}
